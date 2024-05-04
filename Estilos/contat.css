@@ -8,10 +8,31 @@ menu{width: 900x;
 
 nav{text-align: right;}
 
-a{border:solid rgb(50, 42, 165);
-  border-radius:22px; 
-  color:rgb(14, 11, 3);
-  text-decoration: none;}
+a{font-family: Georgia;
+   font-style:oblique;
+   background-color: rgb(143, 168, 147);
+   color: hwb(60 0% 93%);
+   padding: 5px;
+   margin-top:10px;
+   text-decoration: none;
+   padding: 5px;
+   transition: 0,5s all;
+   border-radius: 20px;
+   border:2px black solid;
+   text-shadow: rgba(0, 0, 0, 0.144);}
+ 
+ a:hover {background-color:black ;
+          color:wheat;
+          border:5px blue solid ;
+          border-radius: 30px;
+          transition: 0,5s all;
+ }
+ 
+ a:active {color: rgb(0, 140, 255);}
+ 
+ a:visited {color:white;}
+ 
+ a:focus-visible {color:black}
 
 h1{color:rgb(19, 18, 15);
    text-align:center;
@@ -43,12 +64,13 @@ footer{text-align:"center";
 .r{display:inline-block;
    margin-right:40px;
    border:coral double;
-   width: 400px;height: 400px;}
+   width: 400px;height: 400px;
+   height:350px ;}
 
 .ñ{margin-left: 40px;
    border:coral double;
    width: 400px ;
-   height: 400px;}
+   height: 350px;}
 
 .ya{margin-top: 10px;
     text-align: center;}
