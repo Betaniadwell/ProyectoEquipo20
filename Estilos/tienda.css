@@ -67,7 +67,7 @@ h1{color:rgb(14, 13, 9);
    font-size:6vh;
    font-family:Retrow Mentho Italic;
    margin-top: 20px;}
-  
+
 .h{text-align:"center";
    color: beige;}
   
@@ -232,8 +232,6 @@ li:hover:after{opacity:1;}
    border-radius: 50px;
    text-align: center;}
              
-.tq{margin-top: 20px} /* boorrar del original*/
-             
   
 .tz{margin-top: 10px}
 
@@ -259,12 +257,16 @@ li:hover:after{opacity:1;}
 
 .tz{margin-top: 10px}
 
+.post{border:0 rgb(147, 88, 182);background-color: rgb(201, 112, 189);}
+
+.post1{margin-top: 40px;margin-left: -190px}
+
+.post2{height: 20px;position: absolute;left:530px;bottom: 10px}
+
+.ser{position: absolute;margin-left: -15px;font-size:x-small}
 
 
 
-
-@media screen and (max-width:250px) 
-{.tienda1{flex-direction: row;}}
 
 
 
