@@ -29,8 +29,7 @@
                   background: #24303c;
                   padding: 10px;
                   height: 450px;
-                  margin-top: 40px;
-                  
+                  margin-top: 10px;
                   border-radius: 4px;
                   font-family: 'calibri';
                   color: white;
@@ -110,15 +109,17 @@ xl{width: 50%;
 
 a{font-family: Georgia;
   font-style:oblique;
+  font-size:smaller;
   background-color: rgb(143, 168, 147);
   color: hwb(60 0% 93%);
-  padding: 5px;
+  padding: 3px;
   text-decoration: none;
   padding: 5px;
   transition: 0,5s all;
   border-radius: 20px;
   border:2px black solid;
-  text-shadow: rgba(0, 0, 0, 0.144);}
+  text-shadow: rgba(0, 0, 0, 0.144);
+}
 
 a:hover {background-color:black ;
          color:wheat;
