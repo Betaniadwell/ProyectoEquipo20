@@ -110,7 +110,7 @@ h1{color:rgb(14, 13, 9);
 }
   
 .contboton:hover{transform: scale(1.1);
-                   transition: 0.3s;
+                 transition: 0.3s;
 }
 .boton{width: 80px;
        transition: ease 1s;
