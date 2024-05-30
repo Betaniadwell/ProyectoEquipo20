@@ -1,74 +1,76 @@
 * {padding: 0;
    margin:0 ;
    box-sizing: border-box;
-  }
+}
   
   body{background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
-   height:1200px;
+       height:1200px;
+       display: grid;
+       grid-template-columns: auto auto;
+       justify-content: center;
+       flex-wrap: nowrap;
    
 }
    
   
 
-.form-register {
-                  width: 450px;
-                  background: #24303c;
-                  padding: 10px;
-                 
-                  margin-top:200px;
-                  border-radius: 4px;
-                  font-family: 'calibri';
-                  color: white;
-                  box-shadow: 7px 13px 37px #000;
-                  margin-left: 20px;
-                  height: 450px;
+.form-register {width: 450px;
+                background: #42A5F5;
+                padding: 10px;
+                margin-top:200px;
+                border-radius: 40px;
+                font-family: 'calibri';
+                color: white;
+                box-shadow: 7px 13px 37px #000;
+                margin-left: 20px;
+                height: 450px;
 }
 
 .form-registers {
-                  width:450px;
-                  background: #24303c;
-                  padding: 10px;
-                  height: 450px;
-                  margin-top: 30px;
-                  border-radius: 4px;
-                  font-family: 'calibri';
-                  color: white;
-                  box-shadow: 7px 13px 37px #000;
-                  margin-left: 20px;
+                 width:450px;
+                 background: #42A5F5;
+                 padding: 10px;
+                 height: 450px;
+                 margin-top: 30px;
+                 border-radius:30px;
+                 font-family: 'calibri';
+                 color: white;
+                 box-shadow: 7px 13px 37px #000;
+                 margin-left: 20px;
 
 }
 
 .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+                   font-size: 22px;
+                   margin-bottom: 20px;
 }
   
 
 .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+                  height: 40px;
+                  text-align: center;
+                  font-size: 18px;
+                  line-height: 40px;
 }
   
 .form-register a {
-    color: white;
-    text-decoration: none;
+                  color: white;
+                  text-decoration: none;
 }
   
 .form-register a:hover {
-    color: white;
-    text-decoration: underline;
+                        color: white;
+                        text-decoration: underline;
 }
   
 .form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
+                        width: 100%;
+                        background: #1f53c5;
+                        border: none;
+                        padding: 12px;
+                        color: white;
+                        margin: 16px 0;
+                        font-size: 16px;
 }
 
 
@@ -92,7 +94,7 @@ legend{padding: 10px;
 }
 
 label{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size:medium;
+      font-size:medium;
 }
 
 
@@ -136,9 +138,11 @@ a:focus-visible {color:black}
 
 
 nav{display:grid;
-justify-content: left;
-margin-top: 20px;
+    justify-content: left;
+    margin-top: 20px;
 }
+
+h4{text-align: center;}
 
 
 
