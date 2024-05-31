@@ -1,7 +1,5 @@
 
-
-
-/////const URL = "https://api.thecatapi.com/v1/images/search?limit=10";
+const URL = "https://api.thecatapi.com/v1/images/search?limit=10";
 
 fetch(URL)
   .then(res => res.json())
