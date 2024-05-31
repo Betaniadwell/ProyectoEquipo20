@@ -7,30 +7,40 @@
     <link rel="stylesheet" href="Estilos/galeria.css">
     
 </head>
-<body class="centrar" >
+<body>
+        <nav  class="button1">
+          <a href="http://localhost:3000/users/"> <button>Contenido</button></a>
+          <a href="http://localhost:3000/users/1"> <button>Infantiles</button></a>
+          <a href="http://localhost:3000/users/2"> <button>Graham</button></a>
+          <a href="http://localhost:3000/users/3"> <button>Eric From</button></a>
+          <a href="http://localhost:3000/users/4"> <button>S. Freud</button></a>
+          <a href="http://localhost:3000/users/5"> <button>Terminator</button></a>
+          
+        </nav>
 
-  
-
-
-  <div id="contenedor" class="centrar">
-    <a href="home.html">
-      <button>Home</button>
-    </a>
-  
-    <h4>Libreria</h4>
-   
-    <button onclick="FirstImage()">Infantiles</button>
-    <button onclick="SecondImage()">BillyGraham</button>
-    <button onclick="ThridImage()">Eric From</button>
-    <button onclick="QuarterImage()">SigmunFreud</button>
-    <button onclick="FifthImage()">Terminator</button>
-    
-    </div>
-    
-    <img id="imageid" src="Infantiles.jpg" height="450px" width="350px">
-</br>
-
-     <script src="Estilos/galeria.js" ></script>
+    <main class="centrar">
+       
+        <div id="contenedor" class="centrar">
+          
+          <a href="home.html">
+            <button>Home</button>
+          </a>
+        
+          <h4>Libreria</h4>
+        
+          <button onclick="FirstImage()">Infantiles</button>
+          <button onclick="SecondImage()">BillyGraham</button>
+          <button onclick="ThridImage()">Eric From</button>
+          <button onclick="QuarterImage()">SigmunFreud</button>
+          <button onclick="FifthImage()">Terminator</button>
+          
+        </div>
+          
+          <img id="imageid" src="Infantiles.jpg" height="450px" width="350px">
+          </br>
+      
+    </main>
+           <script src="Estilos/galeria.js" ></script>
     
 </body>
 </html>

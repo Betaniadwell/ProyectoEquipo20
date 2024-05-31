@@ -1,68 +1,59 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  body {
-    height: 100vh; 
-    background-color: #2B807B;
-    text-align: center;
-    
-  }
-.centrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
 }
-
+      
+body {
+        height: 100vh; 
+        background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+        text-align: center;
+        
+}
+.centrar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+    
 button{
-    font-size: 15px;
-    color: white;
-    border-radius: 20px;
-    background-color: #008CBA;
-    margin:10px;
-    padding: 10px 30px;
-    border:3px solid #008CBA;
-    user-select:none;
-    cursor:pointer;
-    transition-duration: 0,4s;
-    }
-
-.but{
-        font-size:12px;
+        font-size: 15px;
         color: white;
         border-radius: 20px;
         background-color: #008CBA;
-        margin:8px;
+        margin:10px;
         padding: 10px 30px;
         border:3px solid #008CBA;
         user-select:none;
         cursor:pointer;
         transition-duration: 0,4s;
-        }  
-    
-button:hover {
-        background-color:#05455A;
 }
-    
-#contenedor{
-        height: 450px;
-        width: 300px;
-        
-        background-image: url(../Imagenes/fondocontenedor.jpg);
-        border: 5px solid black;
-        flex-wrap: nowwrap;
-        flex-direction: column;
-}
+
+
     
 
-@font-face{font-family: "Mystery Quest";
-src: url("mystery-quest.woff2");
+button:hover {
+              background-color:#05455A;
 }
+        
+#contenedor{
+
+            height: 450px;
+            width: 300px;
+            background-image: url(../Imagenes/fondocontenedor.jpg);
+            border: 5px solid black;
+            flex-wrap: nowwrap;
+            flex-direction: column;
+}
+        
+    
+@font-face{font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2");
+}
+
 
 h4{font-family: "Mystery Quest";
-font-size:x-large;font-weight: 900;
-color: rgb(10, 245, 10)
-}
+   font-size:x-large;font-weight: 900;
+   color: rgb(10, 245, 10)}
