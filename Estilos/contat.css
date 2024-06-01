@@ -1,6 +1,9 @@
 html{scroll-behavior: smooth;}
 
-body{background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);}
+*{margin: 0 auto}
+
+
+body{background-image: url("../Imagenes/fondo.jpg");}
 
 menu{width: 900px;
      height: 900px;
@@ -11,7 +14,7 @@ menu{width: 900px;
 
 nav{display:grid;
    justify-content:space-around;
-   grid-template-columns: auto auto auto auto;
+   grid-template-columns: auto auto auto ;
    margin-top: 30px;
 }
 
@@ -26,8 +29,8 @@ a{font-family: Georgia;
    border:2px black solid;
    text-shadow: rgba(0, 0, 0, 0.144);
    display:flex;
-   justify-content:space-around;
-   text-align: justify;
+   justify-content:space-between;
+   text-align:justify;
    top:30px
    }
  
@@ -44,13 +47,14 @@ a:visited {color:white;}
  
 a:focus-visible {color:black}
 
-h1{color:rgb(19, 18, 15);
+h1{color:hwb(42 13% 13%);
    text-align:center;
    font-size:10vh;
    font-family:Retrow Mentho Italic;
    display:grid;
    justify-content:center;
-   margin-top: 60px ;
+   margin-top: 50px ;
+   margin-bottom: 30px;
   }
 
 footer{text-align:"center";
@@ -68,7 +72,7 @@ footer{text-align:"center";
    border:coral double;
    width: 400px;
    height: 400px;
-   height:350px ;}
+}
 
 
 .ya{margin-top: 10px;
@@ -78,14 +82,17 @@ footer{text-align:"center";
 .container{width: 65vw;
            max-width: 800px;
            min-width: 220px;
-           margin: 0 auto;
 }
 
 .imagen{width: 100%;
         border-radius:  15px;
         box-shadow:  0px 3px 5px rgba(15, 15, 15, .5);
-        height: 280px;}
+        height: 350px;}
 
+i{color:hwb(42 13% 13%) ;}   
 
+h2{color:hwb(42 13% 13%)}
 
-        
+h3{color:hwb(42 13% 13%);
+   padding: 13px;}
+

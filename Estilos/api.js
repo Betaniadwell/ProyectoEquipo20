@@ -5,7 +5,8 @@ fetch(URL)
   .then(res => res.json())
   .then(data => {
     const img = document.querySelector("img");
-    img.src = data[0].url; });/////////////////////////////////////////
+    img.src = data[0].url; });
+
 
 /* Change color*/
 const boton = document.querySelector('button');
@@ -29,3 +30,4 @@ boton.addEventListener('click', function() {
   document.body.style.backgroundColor= colorAl;
 });
 
+ 

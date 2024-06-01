@@ -3,21 +3,19 @@
    box-sizing: border-box;
 }
   
-  body{background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+
+body{background-image: url("../Imagenes/fondo.jpg");
        height:1200px;
        display: grid;
        grid-template-columns: auto auto;
        justify-content: center;
        flex-wrap: nowrap;
-   
 }
    
-  
-
 .form-register {width: 450px;
-                background: #42A5F5;
+                background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
                 padding: 10px;
-                margin-top:200px;
+                margin-top:150px;
                 border-radius: 40px;
                 font-family: 'calibri';
                 color: white;
@@ -28,10 +26,10 @@
 
 .form-registers {
                  width:450px;
-                 background: #42A5F5;
+                 background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
                  padding: 10px;
                  height: 450px;
-                 margin-top: 30px;
+                 margin-top: 70px;
                  border-radius:30px;
                  font-family: 'calibri';
                  color: white;
