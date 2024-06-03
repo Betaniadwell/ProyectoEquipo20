@@ -2,9 +2,16 @@
     "users": [
       {
         "id": 1,
-        "nombre": "El sexto sentido",
-        "director": "M. Night Shyamalan",
-        "clasificacion": "Drama"
+        "nombre1": "La Composicion",
+        "ilustraciones1":"Antonio Skameta",
+        "nombre2": "Palabras de Caramelo",
+        "ilustraciones2":"Gonzalo Maure",
+        "nombre3": "Palabras de Caramelo",
+        "ilustraciones3":"Gonzalo Maure",
+        "nombre4": "Palabras de Caramelo",
+        "ilustraciones4":"Maria Elena Walsh",
+        "director": "Varios Autores",
+        "clasificacion": "Infantil"
       },
       {
         "id": 2,

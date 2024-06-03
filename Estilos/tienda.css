@@ -65,6 +65,8 @@ a:active {color: rgb(0, 140, 255);}
 a:visited {color:white;}
         
 a:focus-visible {color:black} 
+
+h3{color:white;}
   
 h1{color:hwb(42 13% 13%);
    text-align:center;
