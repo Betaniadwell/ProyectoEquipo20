@@ -2,27 +2,27 @@ var myImage=document.querySelector("#imageid");
 
 function FirstImage()
 {
-  myImage.src="Infantiles.jpg";
+  myImage.src="../Imagenes/Infantiles.jpg";
 }
 
 function SecondImage()
 {
-  myImage.src="BillyGraham.jpg";
+  myImage.src="../Imagenes/BillyGraham.jpg";
 }
 
 function ThridImage()
 {
-  myImage.src="EricFrom.jpg";
+  myImage.src="../Imagenes/EricFrom.jpg";
 }
 
 function QuarterImage()
 {
-  myImage.src="Freud.jpg";
+  myImage.src="../Imagenes/Freud.jpg";
 }
 
 function FifthImage()
 {
-  myImage.src="Terminator.jpg";
+  myImage.src="../Imagenes/Terminator.jpg";
 }
 
 

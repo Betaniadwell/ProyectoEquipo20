@@ -1,2 +1,0 @@
-# ProyectoEquipo20
-Libreria
