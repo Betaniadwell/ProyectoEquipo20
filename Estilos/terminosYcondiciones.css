@@ -1,0 +1,38 @@
+*{margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+a{  font-family: Georgia;
+    font-style:oblique;
+    background-color: rgb(143, 168, 147);
+    color: hwb(60 0% 93%);
+    padding: 5px;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0,5s all;
+    border-radius: 20px;
+    border:2px black solid;
+    text-shadow: rgba(0, 0, 0, 0.144);
+    position: absolute;
+    top:10px}
+  
+  a:hover {background-color:black ;
+           color:wheat;
+           border:5px blue solid ;
+           border-radius: 30px;
+           transition: 0,5s all;
+  }
+  
+  a:active {color: rgb(0, 140, 255);}
+  
+  a:visited {color:white;}
+  
+  a:focus-visible {color:black}
+
+  h3{margin-top: 50px;}

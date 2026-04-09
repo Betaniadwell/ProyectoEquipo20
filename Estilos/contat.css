@@ -1,0 +1,98 @@
+html{scroll-behavior: smooth;}
+
+*{margin: 0 auto}
+
+
+body{background-image: url("../Imagenes/fondo.jpg");}
+
+menu{width: 900px;
+     height: 900px;
+     margin: 0 auto ;
+     padding: 0;
+     box-sizing: border-box;
+   }
+
+nav{display:grid;
+   justify-content:space-around;
+   grid-template-columns: auto auto auto ;
+   margin-top: 30px;
+}
+
+a{font-family: Georgia;
+   font-size: small;
+   font-style:oblique;
+   background-color: rgb(143, 168, 147);
+   color: hwb(60 0% 93%);
+   text-decoration: none;
+   transition: 0,5s all;
+   border-radius: 50px;
+   border:2px black solid;
+   text-shadow: rgba(0, 0, 0, 0.144);
+   display:flex;
+   justify-content:space-between;
+   text-align:justify;
+   top:30px
+   }
+ 
+a:hover {background-color:black ;
+          color:wheat;
+          border:5px blue solid ;
+          border-radius: 30px;
+          transition: 0,5s all;
+ }
+ 
+a:active {color: rgb(0, 140, 255);}
+ 
+a:visited {color:white;}
+ 
+a:focus-visible {color:black}
+
+h1{color:hwb(42 13% 13%);
+   text-align:center;
+   font-size:10vh;
+   font-family:Retrow Mentho Italic;
+   display:grid;
+   justify-content:center;
+   margin-top: 50px ;
+   margin-bottom: 30px;
+  }
+
+footer{text-align:"center";
+       border-color: blue;
+       border-style:double;
+       margin-bottom: 20px;
+       text-align: center;border-radius: 80px;}  
+
+.os{text-align: left;
+   color:yellow;
+   font-size: large;}
+
+.r{display:inline-block;
+   margin-right:40px;
+   border:coral double;
+   width: 400px;
+   height: 400px;
+}
+
+
+.ya{margin-top: 10px;
+    text-align: center;}
+
+
+.container{width: 65vw;
+           max-width: 800px;
+           min-width: 220px;
+}
+
+.imagen{width: 100%;
+        border-radius:  15px;
+        box-shadow:  0px 3px 5px rgba(15, 15, 15, .5);
+        height: 350px;}
+
+i{color:hwb(42 13% 13%) ;}   
+
+h2{color:hwb(42 13% 13%)}
+
+h3{color:hwb(42 13% 13%);
+   padding: 13px;}
+
